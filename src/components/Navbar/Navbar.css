@@ -1,0 +1,50 @@
+@reference "../../index.css";
+
+.app__navbar {
+    @apply w-full flex justify-between items-center bg-black py-4 px-8
+}
+
+.app__navbar-logo {
+    @apply flex justify-center items-center
+}
+
+.app__navbar-logo img {
+    @apply w-[150px] object-contain
+}
+
+.app__navbar-links {
+    @apply flex list-none justify-center items-center max-xl:hidden;
+}
+
+.app__navbar-links li {
+    @apply mx-4 cursor-pointer hover:text-grey;
+}
+
+.app__navbar-login {
+    @apply flex justify-end items-center max-[650px]:hidden
+}
+
+.app__navbar-login a {
+    @apply mx-4 cursor-pointer hover:text-golden hover:underline;
+}
+
+.app__navbar-smallscreen {
+    @apply hidden max-xl:block
+}
+
+.hamberger {
+    @apply text-[30px] text-white cursor-pointer hover:text-golden
+}
+
+.app__navbar-smallscreen-overlay {
+   @apply fixed h-screen w-full top-0 left-0 bg-black transition-all duration-500 flex flex-col z-50
+    
+}
+
+.overlay__close {
+    @apply absolute top-5 right-5 text-[30px] text-golden cursor-pointer hover:text-white
+}
+
+.app__navbar-smallscreen-links li {
+    @apply m-4 text-golden text-[2rem] cursor-pointer font-base text-center hover:text-white
+}
