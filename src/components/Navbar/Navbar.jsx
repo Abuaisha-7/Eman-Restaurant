@@ -36,7 +36,7 @@ const Navbar = () => {
         <a href="#login" className="p__opensans">
           Log / Register
         </a>
-        <div className="w-1 h-5 bg-grey " />
+        <div className="w-0.5 h-5 bg-grey " />
         <a href="/" className="p__opensans">
           Book Table
         </a>
@@ -54,7 +54,7 @@ const Navbar = () => {
               className="overlay__close"
               onClick={() => setToggleMenu(false)}
             />
-            <ul className="app__navbar-smallscreen-links">
+            <ul className="app__navbar-smallscreen-links"  onClick={() => setToggleMenu(false)}>
               <li className="p__opensans">
                 <a href="#home">Home</a>
               </li>

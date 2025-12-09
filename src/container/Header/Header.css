@@ -1,0 +1,5 @@
+@reference "../../index.css";
+
+.app__header-h1 {
+    @apply text-golden font-base font-bold uppercase leading-[117px] tracking-wide text-[90px] max-[950px]:text-[50px]
+}

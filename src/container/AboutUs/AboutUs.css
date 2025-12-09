@@ -1,0 +1,21 @@
+@reference "../../index.css";
+
+.headtext__cormorant {
+    @apply text-golden text-[64px] font-base leading-[83px] capitalize tracking-[0.04rem]
+}
+
+.app__aboutus-content_about{
+    @apply flex-1 flex justify-end items-end flex-col text-right
+}
+
+.app__aboutus-content_knife {
+    @apply my-8 mx-16 max-[900px]:my-8
+}
+
+.app__aboutus-content_knife img {
+    @apply h-[900px]
+}
+
+.app__aboutus-content_history{
+    @apply flex-1 flex justify-start items-start flex-col text-left
+}
